@@ -67,7 +67,7 @@ $data = array(
 									<a href="#" class="pull-left">Forgot your password?</a>
 									<a href="?page=2" class="pull-right">Register</a>
 								</div>
-							</div>
+							</div>							
 						</form>
 					</div> <!-- /.overlay -->					
 				</div> <!-- /.box-body -->

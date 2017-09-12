@@ -5,7 +5,12 @@ section.login, section.register {
         
         .box-body, .box-footer {
             padding: 0 22%;
+            @media screen and (max-width: 600px) {
+                padding: 0;
+            }
         }
+
+        
 
         .box-body {
             position: relative;            
