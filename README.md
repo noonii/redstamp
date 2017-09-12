@@ -1,6 +1,14 @@
 # redstamp
 
-#Instructions *important*
+Time taken:
+- newsletter : 2-3 Hours 
+- rest of site back-end/front-end 5-8 hours 
+
+When you face bugs sometimes the smallest things take forever to find. 
+
+I know that the instructions were to do the newsletter, but I realized I wouldn't have a second chance to show some of what I am capable of. So, I decided to take this opportunity to showcase my work in raw form without using backend frameworks I'm most famliar with like (WordPress/Laravel). If you want to see that, then visit www.ovatiq.com 
+
+# Instructions *important*
 
 1. Import redstamp.sql
 2. Change database configurations in redstamp/core/config.class.php to your suited settings!
@@ -26,7 +34,9 @@ resources/assets/sass/vendor <br>
 resources/assets/sass/waves.scss <br>
 assets/fonts <br>
 node_modules
+bootstrap
 
+Used vanilla JS instead of jQuery because I want to get better at it. I've used jQuery so much that I want to learn raw JS.
 
 # Custom Files
 - Pages self-coded for the redstamp assignment from scratch
