@@ -7,23 +7,24 @@
 3. Run site on localhost
 
 *Note*
-- For checking responsiveness, I used F12 -> Top left corner (phone/tablet settings) OR Ctrl+Shift+M (must be pressed at the same time)
+- For checking responsiveness, I used F12 -> Top left corner (phone/tablet settings) 
+ <br>OR Ctrl+Shift+M (must be pressed at the same time)
 
 # Assignment
-- Things we want to see. 
- ✔ responsive
- ✔ minimum one SVG image working.
- ✔ well written, scalable code (Always remove to improve as a Junior)
+- Things we want to see.  <br>
+ ✔ responsive <br>
+ ✔ minimum one SVG image working. <br>
+ ✔ well written, scalable code (Always remove to improve as a Junior) <br>
  ✔ cross browser tested
 
 
 # Frameworks/Libraries Used
 
-core/db.class.php
-resources/assets/sass/mixins/_fonts.scss
-resources/assets/sass/vendor
-resources/assets/sass/waves.scss
-assets/fonts
+core/db.class.php <br>
+resources/assets/sass/mixins/_fonts.scss <br>
+resources/assets/sass/vendor <br>
+resources/assets/sass/waves.scss <br>
+assets/fonts <br>
 node_modules
 
 
@@ -33,11 +34,11 @@ node_modules
 
 -- Core -- 
 
-core/config.class.php
-core/functions.class.php
-core/hasher.class.php
-core/loader.class.php
-core/system.class.php
+core/config.class.php <br>
+core/functions.class.php <br>
+core/hasher.class.php <br>
+core/loader.class.php <br>
+core/system.class.php <br>
 
 -- Includes --
 
@@ -48,35 +49,35 @@ includes/newsletter.php
 
 pages/home/php/index.php
 
-pages/dashboard/index.php
+pages/dashboard/index.php <br>
 pages/dashboard/php/dashboard.php
 
-pages/login/index.php
+pages/login/index.php <br>
 pages/login/php/login.php
 
-pages/logout/index.php
+pages/logout/index.php <br>
 pages/logout/php/logout.php
 
-pages/register/index.php
+pages/register/index.php <br>
 pages/register/php/dashboard.php
 
 -- Resources --
 
-resources/assets/js/app.js
-resources/assets/js/login.js
+resources/assets/js/app.js <br>
+resources/assets/js/login.js <br>
 
-resources/assets/sass/mixins/_custom.scss
-resources/assets/sass/app.scss
-resources/assets/sass/custom.scss
-resources/assets/sass/fonts.scss
-resources/assets/sass/login.scss
-resources/assets/sass/newsletter.scss
+resources/assets/sass/mixins/_custom.scss <br>
+resources/assets/sass/app.scss <br> 
+resources/assets/sass/custom.scss <br>
+resources/assets/sass/fonts.scss <br>
+resources/assets/sass/login.scss <br>
+resources/assets/sass/newsletter.scss <br>
 resources/assets/sass/themes.scss
 
 -- Index --
 
-/gulpfile.js
-/index.php
+/gulpfile.js <br>
+/index.php <br>
 /package.json
 
 
