@@ -1,0 +1,78 @@
+// @author atiq/noon
+html,
+body {    
+    height: 100%;
+}
+
+body {
+    font-family: 'AlrightSans',Helvetica,'Roboto',Arial,sans-serif;
+	  color: $textColor;
+    font-style: normal;
+    
+    background-image: url(../../assets/img/crossword.png);
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    color: $headerColor;
+    font-family: 'Tiempos',Georgia,sans-serif;
+    font-weight: 300;
+}
+
+p,
+li,
+li a {
+  color: $textColor;
+}
+
+a {
+  color: $anchorColor;
+}
+
+a,
+a:focus,
+a:hover,
+a:active {
+  outline: 0 !important;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Default highlight color */
+::-moz-selection {
+  color: #fff;
+  background: $background-color;
+}
+
+::selection {
+  color: #fff;
+  background: $background-color;
+}
+
+// Buttons
+.btn-color{
+  background-color: #d44034;
+  border-color: #c74034;  
+}
+.btn-primary {
+	  color: #fff;
+    background-color: #ec5447;
+    border-color: #c74034;
+    outline: 0 !important;
+    @include transition(all .3s ease-in-out);
+
+    &:active, &:focus, &:hover, &:visited {
+        @include box-shadow(0 0 5px 2px rgba(244, 67, 54, 0.5));                
+        @extend .btn-color;   
+        &:active, &:hover, &:focus, &:visited {
+          @extend .btn-color;   
+        }
+    }
+}

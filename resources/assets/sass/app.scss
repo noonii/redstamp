@@ -1,0 +1,20 @@
+// Background
+$background-color: #ddd;
+// @author atiq/noon
+
+// Text
+$headerColor: #0a273c;
+$textColor: #0a273c;
+$anchorColor: #17bac7;
+
+/* Add fonts */ 
+@import 'fonts';
+
+// Mixins
+@import 'mixins/custom';
+// Customs
+@import 'custom';
+@import 'theme';
+@import 'login';
+@import 'newsletter';
+

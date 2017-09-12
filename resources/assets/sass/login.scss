@@ -1,0 +1,84 @@
+// @Author Atiq/noon
+section.login, section.register {
+                     
+    form {
+        
+        .box-body, .box-footer {
+            padding: 0 22%;
+        }
+
+        .box-body {
+            position: relative;            
+        }
+
+        .box-footer {
+            //text-align: center;
+            a {
+                color: #17bac7;                
+                font-size: 11px;
+                text-decoration: none;
+            }
+        }    
+
+        .form-group {
+            margin: 25px 0;
+        }
+
+        .form-control {
+            @include box-shadow(none);
+            @include border-radius(0);
+            border: none;
+            border-bottom: 1px solid #ddd;
+            background: inherit;    
+            padding: 0;  
+            &:focus {
+                @include box-shadow(none);
+                border-color: #112d41;
+            }
+        }
+    }
+
+    .fingerprint {
+        @include border-radius(50%);
+        width: 50%;
+        height: auto;
+        padding-top: 50%;
+        background-color: rgb(10, 39, 60);
+        background: url(../img/testing_3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 5% 0 0 25%;
+        
+        &:hover {        
+            //                  
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0 20%;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    .btn-primary {
+        @include border-radius(0);
+        width: 100%;
+        font-size: 20px;
+        padding: 15px;        
+    }
+
+}
+
+.fadeOut {
+    @include animation(fadeOut 2s forwards);  
+}
+
+.fadeIn {        
+    @include animation(fadeIn 2s forwards); 
+    z-index: 10 !important;
+}

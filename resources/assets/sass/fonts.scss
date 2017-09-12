@@ -1,0 +1,22 @@
+@import 'mixins/_fontface';
+
+// @author atiq/noon
+// AlrightSans
+@include font-face('AlrightSans', '../fonts/AlrightSans/AlrightSans-Regular', 100, normal, 'otf');
+@include font-face('AlrightSans-ExtraThin', '../fonts/AlrightSans/AlrightSans-ExtraThin', 100, normal, 'otf');
+@include font-face('AlrightSans-ThinItalic', '../fonts/AlrightSans/AlrightSans-ThinItalic', 300, italic, 'otf');
+@include font-face('AlrightSans-RegularItalic', '../fonts/AlrightSans/AlrightSans-RegularItalic', 400, italic, 'otf');
+@include font-face('AlrightSans-MediumItalic', '../fonts/AlrightSans/AlrightSans-MediumItalic', 500, italic, 'otf');
+@include font-face('AlrightSans-BoldItalic', '../fonts/AlrightSans/AlrightSans-BoldItalic', 700, italic, 'otf');
+@include font-face('AlrightSans-LightItalic', '../fonts/AlrightSans/AlrightSans-LightItalic', 300, italic, 'otf');
+@include font-face('AlrightSans-Black', '../fonts/AlrightSans/AlrightSans-Black', 800, normal, 'otf');
+@include font-face('AlrightSans-BlackItalic', '../fonts/AlrightSans/AlrightSans-BlackItalic', 800, italic, 'otf');
+@include font-face('AlrightSans-Ultra', '../fonts/AlrightSans/AlrightSans-Ultra', 900, normal, 'otf');
+@include font-face('AlrightSans-UltraItalic', '../fonts/AlrightSans/AlrightSans-UltraItalic', 900, italic, 'otf');
+// Timepos Headline
+@include font-face('Tiempos', '../fonts/TiemposHeadline/TiemposHeadline-Regular', 400, normal, 'otf');
+@include font-face('Tiempos-Italic', '../fonts/TiemposHeadline/TiemposHeadline-RegularItalic', 400, normal, 'otf');
+@include font-face('Tiempos-MediumItalic', '../fonts/TiemposHeadline/TiemposHeadline-MediumItalic', 500, italic, 'otf');
+@include font-face('Tiempos-Semibold', '../fonts/TiemposHeadline/TiemposHeadline-Semibold', 700, normal, 'otf');
+// Tiempos Text
+@include font-face('TiemposText', '../fonts/TiemposText/TiemposText-Regular', 100, normal, 'otf');

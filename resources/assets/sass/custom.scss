@@ -1,0 +1,64 @@
+// @author atiq/noon
+.box-body {
+    padding: 0 10%;
+}
+
+.circle {
+    @include border-radius(60px);
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    text-align: center;  
+}
+
+.header {
+    padding-top: 130px;
+    padding-bottom: 10px;
+    text-align:  center;
+
+}
+
+.navbar {
+    background: #ffffff;
+    letter-spacing: 0.5px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid #00BCD4;
+
+    @include border-radius(0);
+    @include box-shadow(0px 3px 5px 0px rgba(10, 39, 60, 0.11));
+
+    .anchorTheme {
+        color: #ec5447;
+        background-color: transparent;
+    }
+
+    .fa {
+        color: #ec5447;
+    }
+
+    .navbar-nav {
+        > li > a {
+            color: #00BCD4;
+            &:hover, &:focus {
+                @extend .anchorTheme;   
+            }
+        }
+    }    
+    
+    .navbar-brand {
+        color: #00BCD4;
+
+        > img:hover {
+            @include animation(rotateIn 1s forwards);
+        }
+        
+        &:focus, &:hover {
+            @extend .anchorTheme; 
+        }
+    }
+    
+}
+
+
+
