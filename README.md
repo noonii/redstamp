@@ -24,7 +24,7 @@ I know that the instructions were to do the newsletter, but I realized I wouldn'
 - Things we want to see.  <br>
  ✔ responsive <br>
  ✔ minimum one SVG image working. <br>
- ✔ well written, scalable code (Always remove to improve as a Junior) <br>
+ ✔ well written, scalable code (Always room to improve, really) <br>
  ✔ cross browser tested
 
 
