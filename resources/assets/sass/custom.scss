@@ -62,3 +62,117 @@
 
 
 
+@media screen and (max-width: 992px) {
+    
+    .rectangle {                
+
+        .rs-container {
+            padding: 35px 60px 0;
+        }
+
+        .rectangle-mid .rs-container {
+            padding-top: 0;
+        }
+
+        .rectangle-bot  {
+            .rs-container {
+                padding: 0px 40px;
+            }
+            h3 {
+                font-size: 13px;
+            }
+        }
+
+        .rectangle-footer  .footer-mid .rs-container {
+            padding: 15px 60px;        
+        }
+
+        span, p {
+            font-size: 13px;
+        }  
+        
+        .rs-header > h1 {
+            font-size: 35px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .rectangle {        
+        
+        .rs-container {
+            padding: 35px 30px 0;
+        }
+
+        .rectangle-mid {
+            hr {
+                margin-top: 5%;
+            }           
+        }
+
+        .rectangle-bot  {
+            .rs-container {
+                padding: 0px 40px;
+            }
+            h3 {
+                font-size: 12px;
+            }
+        }
+
+        .rectangle-footer {
+            .footer-mid .rs-container {
+                padding: 15px 30px;   
+            }   
+            .footer-bot {
+                .footer-header {
+                    padding: 0 0 8%;
+                }
+                .rs-container {
+                    padding-bottom: 20px;
+                }
+            }  
+        }
+
+        span, p {
+            font-size: 11px;
+        }  
+        
+        .rs-header > h1 {
+            font-size: 30px;
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .rs-row, .panel {
+            text-align:center;
+        }
+
+        .rs-col {
+            width: inherit;
+        }
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .rectangle {
+        .rectangle-top {
+            .rs-navbar .rs-nav {
+                margin: 0;
+                float: none;
+            }                  
+        }
+    }
+}

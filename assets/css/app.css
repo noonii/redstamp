@@ -115,56 +115,6 @@
   src: url("../fonts/TiemposText/TiemposText-Regular.otf") format("opentype");
 }
 
-.box-body {
-  padding: 0 10%;
-}
-
-.circle {
-  border-radius: 60px;
-  margin: 0 auto;
-  height: 100px;
-  width: 100px;
-  text-align: center;
-}
-
-.header {
-  padding-top: 130px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-.navbar {
-  background: #ffffff;
-  letter-spacing: 0.5px;
-  padding: 10px 0;
-  border: none;
-  border-bottom: 2px solid #00BCD4;
-  border-radius: 0;
-  box-shadow: 0px 3px 5px 0px rgba(10, 39, 60, 0.11);
-}
-
-.navbar .anchorTheme, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .navbar .navbar-brand:focus, .navbar .navbar-brand:hover {
-  color: #ec5447;
-  background-color: transparent;
-}
-
-.navbar .fa {
-  color: #ec5447;
-}
-
-.navbar .navbar-nav > li > a {
-  color: #00BCD4;
-}
-
-.navbar .navbar-brand {
-  color: #00BCD4;
-}
-
-.navbar .navbar-brand > img:hover {
-  -webkit-animation: rotateIn 1s forwards;
-  animation: rotateIn 1s forwards;
-}
-
 html,
 body {
   height: 100%;
@@ -587,6 +537,132 @@ span {
 @media screen and (min-width: 992px) {
   .rectangle .rectangle-footer .footer-bot .footer-header {
     padding: 0 20% 8%;
+  }
+}
+
+.box-body {
+  padding: 0 10%;
+}
+
+.circle {
+  border-radius: 60px;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.header {
+  padding-top: 130px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.navbar {
+  background: #ffffff;
+  letter-spacing: 0.5px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid #00BCD4;
+  border-radius: 0;
+  box-shadow: 0px 3px 5px 0px rgba(10, 39, 60, 0.11);
+}
+
+.navbar .anchorTheme, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .navbar .navbar-brand:focus, .navbar .navbar-brand:hover {
+  color: #ec5447;
+  background-color: transparent;
+}
+
+.navbar .fa {
+  color: #ec5447;
+}
+
+.navbar .navbar-nav > li > a {
+  color: #00BCD4;
+}
+
+.navbar .navbar-brand {
+  color: #00BCD4;
+}
+
+.navbar .navbar-brand > img:hover {
+  -webkit-animation: rotateIn 1s forwards;
+  animation: rotateIn 1s forwards;
+}
+
+@media screen and (max-width: 992px) {
+  .rectangle .rs-container {
+    padding: 35px 60px 0;
+  }
+  .rectangle .rectangle-mid .rs-container {
+    padding-top: 0;
+  }
+  .rectangle .rectangle-bot .rs-container {
+    padding: 0px 40px;
+  }
+  .rectangle .rectangle-bot h3 {
+    font-size: 13px;
+  }
+  .rectangle .rectangle-footer .footer-mid .rs-container {
+    padding: 15px 60px;
+  }
+  .rectangle span, .rectangle p {
+    font-size: 13px;
+  }
+  .rectangle .rs-header > h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rectangle .rs-container {
+    padding: 35px 30px 0;
+  }
+  .rectangle .rectangle-mid hr {
+    margin-top: 5%;
+  }
+  .rectangle .rectangle-bot .rs-container {
+    padding: 0px 40px;
+  }
+  .rectangle .rectangle-bot h3 {
+    font-size: 12px;
+  }
+  .rectangle .rectangle-footer .footer-mid .rs-container {
+    padding: 15px 30px;
+  }
+  .rectangle .rectangle-footer .footer-bot .footer-header {
+    padding: 0 0 8%;
+  }
+  .rectangle .rectangle-footer .footer-bot .rs-container {
+    padding-bottom: 20px;
+  }
+  .rectangle span, .rectangle p {
+    font-size: 11px;
+  }
+  .rectangle .rs-header > h1 {
+    font-size: 30px;
+  }
+  .rectangle h4 {
+    text-align: center;
+  }
+  .rectangle h3 {
+    font-size: 18px;
+  }
+  .rectangle h2 {
+    font-size: 20px;
+  }
+  .rectangle .rs-row, .rectangle .panel {
+    text-align: center;
+  }
+  .rectangle .rs-col {
+    width: inherit;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .rectangle .rectangle-top .rs-navbar .rs-nav {
+    margin: 0;
+    float: none;
   }
 }
 

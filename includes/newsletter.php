@@ -20,8 +20,8 @@
                     </div>            
                     <p class="rs-text">Lorem ipsum dolor sit amet proin gravida amet lorem ipsum sum dolor sit.</p>
                 </div>
-                <div class="rs-col" style="text-align: right;">
-                    <img src="assets/img/newsletter/newsletter-graphic.png" alt="Newsletter"/>
+                <div class="rs-col" style="text-align: right">
+                    <img src="assets/img/newsletter/newsletter-graphic.png" width="100%" alt="Newsletter"/>
                 </div>
             </div>
 
