@@ -8,6 +8,8 @@ When you face bugs sometimes the smallest things take forever to find.
 
 I know that the instructions were to do the newsletter, but I realized I wouldn't have a second chance to show some of what I am capable of. So, I decided to take this opportunity to showcase my work in raw form without using backend frameworks I'm most famliar with like (WordPress/Laravel). If you want to see that, then visit www.ovatiq.com 
 
+*note* If I were creating an e-mail template, I would've used table/tr/th etc rather than div. 
+
 # Instructions *important*
 
 1. Import redstamp.sql
