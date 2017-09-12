@@ -15,7 +15,7 @@ require 'includes/navbar.php';
             <h3>You can register an account or use the below login details to see the newsletter!</h3>
             </br>
             <p>Username: test@gmail.com</p>
-            <p>Password: superman123</p>
+            <p>Password: superman</p>
             
                 <div id="troll" style="margin-left:25%; opacity:0">
                     <img src="https://i.ytimg.com/vi/2fb-g_V-UT4/hqdefault.jpg" />
