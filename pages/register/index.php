@@ -30,7 +30,9 @@ $data = array(
 			<div class="col-md-8 col-md-offset-2">
 				
 				<div class="box-body">
-					<?php if (!$submitted): ?>							
+					<?php if (!$submitted): ?>	
+						<!-- From your twitter, Gaelen :) Just for you.. now pay up.
+						https://twitter.com/clientsfh/status/898998693189230592  -->						
 						<div class="fingerprint"></div>
 					<?php endif; ?>
 																				
