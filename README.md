@@ -1,14 +1,14 @@
-# redstamp
+# Note
 
-Time taken:
-- newsletter : 2-3 Hours 
-- rest of site back-end/front-end 5-8 hours 
+1. It's a partial site that is not meant to be completed, except for the 'newsletter page' inside the dashboard. 
+2. Feel free to browse through the scripts, though.
 
-When you face bugs sometimes the smallest things take forever to find. 
-
-I know that the instructions were to do the newsletter, but I realized I wouldn't have a second chance to show some of what I am capable of. So, I decided to take this opportunity to showcase my work in raw form without using backend frameworks I'm most famliar with like (WordPress/Laravel). If you want to see that, then visit www.ovatiq.com 
-
-*note* If I were creating an e-mail template, I would've used table/tr/th etc rather than div. 
+# Assignment
+- Things we want to see.  <br>
+ responsive <br>
+ minimum one SVG image working. <br>
+ well written, scalable code (Always room to improve, really) <br>
+ cross browser tested
 
 # Instructions *important*
 
@@ -19,14 +19,6 @@ I know that the instructions were to do the newsletter, but I realized I wouldn'
 *Note*
 - For checking responsiveness, I used F12 -> Top left corner (phone/tablet settings) 
  <br>OR Ctrl+Shift+M (must be pressed at the same time)
-
-# Assignment
-- Things we want to see.  <br>
- ✔ responsive <br>
- ✔ minimum one SVG image working. <br>
- ✔ well written, scalable code (Always room to improve, really) <br>
- ✔ cross browser tested
-
 
 # Frameworks/Libraries Used
 
