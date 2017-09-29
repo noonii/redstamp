@@ -1,14 +1,7 @@
 # Note
 
-1. It's a partial site that is not meant to be completed, except for the 'newsletter page' inside the dashboard. 
+1. It's a partial site that is not meant to be completed (assignment), except for the 'newsletter page' inside the dashboard. 
 2. Feel free to browse through the scripts, though.
-
-# Assignment
-- Things we want to see.  <br>
- responsive <br>
- minimum one SVG image working. <br>
- well written, scalable code (Always room to improve, really) <br>
- cross browser tested
 
 # Instructions *important*
 
